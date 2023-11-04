@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/Larva JavaScript ass4 - Calculator/scientific/images/favicon.png" type="image/png">
+    <title>DruxAMB - Normal Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container" style="width: 24rem;">
+      <div id="calculator">
+        <div class="text"><b class="d">D</b>ruxAMB</div>
+        <button id="switch"><a href="/scientific/index.html">Click to Switch to a Scientific Calculator</a></button>
+        <div id="display"></div>
+        <div id="row-1">
+          <input id="item1" onclick="clickAC()" type="button" value="AC" />
+          <input id="item1" onclick="clickDE()" type="button" value="DE" />
+          <input id="item1" onclick="clickPercent()" type="button" value="%" />
+          <input id="item1" onclick="clickDivide()" type="button" value="/" />
+        </div>
+        <div id="row-1">
+          <input id="item" onclick="clickSeven()" type="button" value="7" />
+          <input id="item" onclick="clickEight()" type="button" value="8" />
+          <input id="item" onclick="clickNine()" type="button" value="9" />
+          <input id="item1" onclick="clickX()" type="button" value="X" />
+        </div>
+        <div id="row-1">
+          <input id="item" onclick="clickFour()" type="button" value="4" />
+          <input id="item" onclick="clickFive()" type="button" value="5" />
+          <input id="item" onclick="clickSix()" type="button" value="6" />
+          <input id="item1" onclick="clickSubtract()" type="button" value="-" />
+        </div>
+        <div id="row-1">
+          <input id="item" onclick="clickOne()" type="button" value="1" />
+          <input id="item" onclick="clickTwo()" type="button" value="2" />
+          <input id="item" onclick="clickThree()" type="button" value="3" />
+          <input id="item1" onclick="clickPlus()" type="button" value="+" />
+        </div>
+        <div id="row-1">
+          <input id="item" onclick="clickDot()" type="button" value="." />
+          <input id="item" onclick="clickZero()" type="button" value="0" />
+          <input id="item-btn" onclick="clickEqual()" type="button" value="=" />
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
